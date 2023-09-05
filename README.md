@@ -112,5 +112,9 @@ We'd love for you to contribute! In order to do so, fork this repository. Your p
 ## Tests
 No tests were run to complete this CMS.
 
+## Questions
+Find Insha Sayani on [GitHub](https://github.com/isayani)<br/>
+Or visit the PWA's repository: [J.A.T.E](https://github.com/isayani/pwa-text-editor)
+
 - - -
 © 2022 Just Another Text Editor (J.A.T.E): PWA by ISayani Creative Services, Confidential and Proprietary. All Rights Reserved.
