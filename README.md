@@ -1,5 +1,19 @@
-# module-19
+Just Another Text Editor (J.A.T.E)
+Description
+J.A.T.E is a Progressive Web Application (PWA) that runs in the browser, offline and can be installed locally to your machine. This application features a number of data persistence techniques, insuring the application runs regardless of browser supported function. J.A.T.E uses an IndexedDB database and the idb package. This application is deployed to Heroku, to access it in production continue reading the documentation!
 
+Table of Contents
+Description
+Table of Contents
+Usage
+Installation
+License
+Technologies Employed
+Future Development
+Contributing
+Tests
+Questions
+Usage
 User Story
 AS A developer
 I WANT to create notes or code snippets with or without an internet connection
@@ -30,4 +44,53 @@ WHEN I register a service worker
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
-Mock-Up
+Installation
+This application is deployed to Heroku.
+
+To run J.A.T.E locally:
+
+Pull down and/or branch this repository
+Run npm i to install all dependencies
+Invoke application with npm run start
+
+The following animation demonstrates the application's functionality:
+J A T E Demo
+
+
+The following image shows the application's manifest.json file: manifest
+
+
+The following image shows the application's registered service worker:
+serviceworker
+
+
+The following image shows the application's IndexedDB storage:
+idb
+
+License
+This project is licensed under the MIT license.
+
+A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+
+For more information visit MIT Licensing.
+
+Technologies Employed
+Mini-CSS-Extract Plugin
+Webpack+Workbox
+Concurrently
+JavaScript
+IndexedDB
+Express
+NodeJS
+Babel
+Future Development
+We would like to continue to add the following functionality to our application:
+
+Overhaul CSS
+Contributing
+We'd love for you to contribute! In order to do so, fork this repository. Your pull request will need approval in order to merge to main.
+
+Take a look at our Future Development section to see what we are looking to expand on (implemented features are denoted with a ✓). Feel free to implement your own ideas and merge request!
+
+Tests
+No tests were run to complete this CMS.
